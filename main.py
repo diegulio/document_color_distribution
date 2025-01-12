@@ -2,7 +2,7 @@ import streamlit as st
 from app.processing import process_pdf, extract_images_from_pdf, calculate_pixel_distribution
 
 def main():
-    st.title("Analizador de Distribución de Píxeles en PDF")
+    st.title("👴🏻 Pdf Pixel")
     st.write("Sube un archivo PDF para calcular la distribución de píxeles de color, negros y blancos.")
 
     # File uploader
